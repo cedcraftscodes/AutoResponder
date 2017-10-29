@@ -39,6 +39,8 @@ public class IncomingSms extends BroadcastReceiver {
                     if(message.trim().toLowerCase().equals("hi")){
                         sms.sendTextMessage(senderNum, null, "Hello. This text is automated :)", null, null);
                     }
+
+                    //Adding Comment, this is a test committ, comment. 
                 }
             }
 
